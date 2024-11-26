@@ -250,6 +250,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bowser"
+                ]
+            },
+            "height": 904,
+            "width": 1205,
+            "items": [
+                {
+                    "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 29
+                                            },
+                                            {
+                                                "width": 76,
+                                                "height": 57
+                                            },
+                                            {
+                                                "width": 151,
+                                                "height": 113
+                                            },
+                                            {
+                                                "width": 302,
+                                                "height": 226
+                                            },
+                                            {
+                                                "width": 603,
+                                                "height": 452
+                                            },
+                                            {
+                                                "width": 1205,
+                                                "height": 904
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1205,
+                                        "@id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 904,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/bowser/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
