@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "1_0357405_0000"
+                ]
+            },
+            "height": 3512,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 96,
+                                                "height": 110
+                                            },
+                                            {
+                                                "width": 191,
+                                                "height": 220
+                                            },
+                                            {
+                                                "width": 382,
+                                                "height": 439
+                                            },
+                                            {
+                                                "width": 764,
+                                                "height": 878
+                                            },
+                                            {
+                                                "width": 1528,
+                                                "height": 1756
+                                            },
+                                            {
+                                                "width": 3055,
+                                                "height": 3512
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3055,
+                                        "@id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3512,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0357405_0000/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1_0374580/canvas/",
             "type": "Canvas",
             "label": {
