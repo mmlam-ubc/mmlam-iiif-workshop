@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 160,
+    "height" : 236
+  }, {
+    "width" : 320,
+    "height" : 472
+  }, {
+    "width" : 639,
+    "height" : 944
+  }, {
+    "width" : 1278,
+    "height" : 1887
+  }, {
+    "width" : 2555,
+    "height" : 3774
+  }, {
+    "width" : 5109,
+    "height" : 7547
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 5109,
+  "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/images/1",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 7547
+}
