@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest2.json",
     "label" : "A general synopsis of birds"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest3.json",
+    "label" : "Canadian Pacific advertisements"
   } ]
 }
