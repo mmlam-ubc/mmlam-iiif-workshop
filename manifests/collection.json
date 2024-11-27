@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest3.json",
     "label" : "Canadian Pacific advertisements"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest4.json",
+    "label" : "Canadian Pacific advertisements"
   } ]
 }
