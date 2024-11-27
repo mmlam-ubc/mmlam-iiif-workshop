@@ -1,0 +1,131 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "A general synopsis of birds",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Latham, John, 1740-1837"
+  }, {
+    "label" : "Date Issued",
+    "value" : "1781"
+  } ],
+  "description" : [ {
+    "@value" : "Vols. 2 and 3 have imprint: London, Printed for Leigh & Sotheby. Some copies issued with coloured plates. 500 copies of vols. 1-3 and the first supplement printed; 250 copies of the second supplement printed, ref. his General history, vol. I, p. vi. A catalogue of the principal authors referred to in this work: vol. 3, pt. 2 [pp.637-647]. Includes birds recorded on Cook's third voyage. -- Strathern, G. M., & Edwards, M. H. (1970). Navigations, traffiques & discoveries, 1774-1848: A guide to publications relating to the area now British Columbia. Victoria, BC: University of Victoria, p. 166-7.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Images provided for research and reference use only. For permission to publish, copy, or otherwise distribute these images please contact digital.initiatives@ubc.ca.",
+  "sequences" : [ {
+    "@id" : "http://b79e3602-2d62-477b-8769-19677c4b9bdb",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en",
+      "viewingHint" : "paged"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://602f91ef-4c4a-494f-9556-4b00e58579cc",
+      "@type" : "sc:Canvas",
+      "label" : "Book cover",
+      "height" : 3512,
+      "width" : 3055,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0b448c05-656e-45ef-ab78-34ce38e3b6ff",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0357405_0000/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0357405_0000",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3512,
+          "width" : 3055
+        },
+        "on" : "http://602f91ef-4c4a-494f-9556-4b00e58579cc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2ea82f47-1750-4fc3-a00f-0f48603f8c15",
+      "@type" : "sc:Canvas",
+      "label" : "Pg_034-Pg_035",
+      "height" : 3512,
+      "width" : 6110,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3121988e-f3dd-4120-bc2a-e99be422b973",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1-0357405-0033_1-0357405-0034/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1-0357405-0033_1-0357405-0034",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3512,
+          "width" : 6110
+        },
+        "on" : "http://2ea82f47-1750-4fc3-a00f-0f48603f8c15"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6ffcc86a-51a3-48f8-a12e-67d2c4020ddd",
+      "@type" : "sc:Canvas",
+      "label" : "Pg_154_Pg_155",
+      "height" : 3512,
+      "width" : 6110,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ceea5253-7713-4185-90d9-4e807a8d0a3e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0357405_0153_1_0357405_0154/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0357405_0153_1_0357405_0154",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3512,
+          "width" : 6110
+        },
+        "on" : "http://6ffcc86a-51a3-48f8-a12e-67d2c4020ddd"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://602f91ef-4c4a-494f-9556-4b00e58579cc" ]
+  } ]
+}
