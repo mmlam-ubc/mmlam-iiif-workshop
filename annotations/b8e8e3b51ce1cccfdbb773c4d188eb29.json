@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Riding",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Riding</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/189680745",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-11-27T21:59:04",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732744744766",
+    "dcterms:modified" : "2024-11-27T21:59:04",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest4.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=205,5039,761,390"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M204.86658,5039.27341h380.34871v0h380.34871v195.19041v195.19041h-380.34871h-380.34871v-195.19041z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_bed3b31e-860a-4549-9e36-2ca7778629e5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://7b18ec7b-890d-4134-87e0-9437cf6c507e"
+    } ]
+  } ],
+  "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/annotations/b8e8e3b51ce1cccfdbb773c4d188eb29.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
