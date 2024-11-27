@@ -1,0 +1,102 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest4.json",
+  "@type" : "sc:Manifest",
+  "label" : "Canadian Pacific advertisements",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Canadian Pacific Company"
+  }, {
+    "label" : "Date Issued",
+    "value" : "1950s"
+  } ],
+  "description" : [ {
+    "@value" : "This is a collection of advertisements from the Canadian Pacific taken from the Chung Collection",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Images provided for research and reference use only. For permission to publish, copy, or otherwise distribute these images please contact digital.initiatives@ubc.ca.",
+  "sequences" : [ {
+    "@id" : "http://4375e017-8a2e-4d89-9386-054872cbe113",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en",
+      "viewingDirection" : "right-to-left",
+      "viewingHint" : "paged"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7b18ec7b-890d-4134-87e0-9437cf6c507e",
+      "@type" : "sc:Canvas",
+      "label" : "Canadian Pacific - Holidays in Canada",
+      "height" : 5991,
+      "width" : 3864,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2604aa1f-4c49-40b6-9be0-cdd1991063fe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0355451/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0355451",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5991,
+          "width" : 3864
+        },
+        "on" : "http://7b18ec7b-890d-4134-87e0-9437cf6c507e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e5384c67-725e-44b5-bcf2-cc568440397f",
+      "@type" : "sc:Canvas",
+      "label" : "Canadian Pacific - Cruising Norway and and Northern Capitals",
+      "height" : 5337,
+      "width" : 3540,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7bcd6bbe-a342-428a-aa46-b6d3d72b78f3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0374580/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fmmlam-ubc%2Fmmlam-iiif-workshop%2F1_0374580",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5337,
+          "width" : 3540
+        },
+        "on" : "http://e5384c67-725e-44b5-bcf2-cc568440397f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://7b18ec7b-890d-4134-87e0-9437cf6c507e" ]
+  } ]
+}
