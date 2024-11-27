@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://mmlam-ubc.github.io/mmlam-iiif-workshop/annotations/b8e8e3b51ce1cccfdbb773c4d188eb29.json" ],
+  "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/annotations/collection.json",
+  "label" : "All annotations loaded in mmlam-ubc/mmlam-iiif-workshop project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
