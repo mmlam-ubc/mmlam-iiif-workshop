@@ -3,6 +3,11 @@
   "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/manifests/manifest4.json",
   "@type" : "sc:Manifest",
   "label" : "Canadian Pacific advertisements",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/189680745/432cf314e8bf2d2e55d5cf354cb6b345/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Creator",
     "value" : "Canadian Pacific Company"
@@ -53,6 +58,11 @@
           "width" : 3864
         },
         "on" : "http://7b18ec7b-890d-4134-87e0-9437cf6c507e"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://mmlam-ubc.github.io/mmlam-iiif-workshop/annotations/b8e8e3b51ce1cccfdbb773c4d188eb29.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
